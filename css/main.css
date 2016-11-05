@@ -1,0 +1,21 @@
+body {
+     background: #8b98ff;
+     color: #000;
+     font-family: rockwell, serif;
+     font-size: 100%;
+     margin: 35px;
+     img {
+       max-width: 100%;
+       display: block;
+     }
+     @media (max-width: 700px) {
+       body {
+         width: 80%;
+         margin-top: 20px;
+         margin-left: 20px;
+         margin-right: 20px;
+       }
+       #container {
+         margin: 0;
+       }
+     }
